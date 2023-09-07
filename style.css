@@ -1,0 +1,53 @@
+#dataTable1 {
+    border-collapse: collapse;
+    width:300px;
+    margin-top: 20px;
+    border: 1px solid black;
+}
+/* Style for table headers */
+#dataTable1 th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 8px;
+    border: 1px solid black;
+}
+
+/* Style for table data cells */
+#dataTable1 td:nth-child(odd) {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid black;
+}
+#dataTable1 td:nth-child(even) {
+    padding: 8px;
+    text-align: right;
+    border: 1px solid black;
+}
+
+#dataTable2 {
+    border-collapse: collapse;
+    width: 300px;
+    margin-top: 20px;
+    margin-left:50px;
+    border: 1px solid black;
+}
+#dataTable2 th{
+    background-color: #f2f2f2;
+    text-align: center;
+    padding: 8px;
+    border: 1px solid black;
+}
+#dataTable2 td{
+    padding: 8px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#tabledisplay {
+    display: flex;
+    margin:0 auto;
+    width: 100%;
+}
+#tabledisplay h1{
+    text-align: center;
+}
